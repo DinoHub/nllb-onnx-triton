@@ -35,7 +35,7 @@ Converting this model to ONNX format and serving it via Triton Inference Server 
 ## Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/nllb-onnx-triton.git
+git clone https://github.com/DinoHub/nllb-onnx-triton.git
 cd nllb-onnx-triton
 ```
 
