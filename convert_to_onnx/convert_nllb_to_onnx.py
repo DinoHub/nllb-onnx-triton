@@ -23,6 +23,8 @@ def convert_nllb_to_onnx(model_id="facebook/nllb-200-distilled-600M", output_dir
     # Export as a single model (not encoder/decoder separate)
     main_export(
         model_name_or_path=model_id,
+        dtype="fp16",
+        device = "cuda",
         tokenizer=tokenizer,
         config=config,
         opset=14,
