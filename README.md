@@ -53,7 +53,7 @@ pip install -r requirements.txt
 ### Running the Conversion
 
 ```bash
-python convert_nllb_to_onnx.py --output_dir ../triton_model_repository/nllb_onnx/1/
+python convert_nllb_to_onnx.py --model_id facebook/nllb-200-3.3B --output_dir ../triton_model_repository/nllb_onnx/1/
 ```
 
 The script will:
@@ -118,7 +118,6 @@ For a complete list of supported languages, refer to the [NLLB documentation](ht
 - [NLLB-200 Model](https://huggingface.co/facebook/nllb-200-distilled-600M)
 - [NVIDIA Triton Inference Server](https://github.com/triton-inference-server/server)
 - [ONNX Runtime](https://onnxruntime.ai/)
-- [Hugging Face Optimum]()
 
 ## License
 
